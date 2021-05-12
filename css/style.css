@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background: #f0f2f5;
+}
+
+input {
+  width: 100%;
+  padding: 0 1.5rem;
+  height: 3.5rem;
+  border-radius: 0.25rem;
+  background: #e6e7eb;
+  border: 1px solid #d7d7d7;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+input::-webkit-input-placeholder {
+  color: var(--text-body);
+}
+
+input:-ms-input-placeholder {
+  color: var(--text-body);
+}
+
+input::-ms-input-placeholder {
+  color: var(--text-body);
+}
+
+input::placeholder {
+  color: var(--text-body);
+}
+
+input + input {
+  margin-top: 1rem;
+}
+
+.books-list {
+  margin: 0 auto;
+  width: 90%;
+  border-spacing: 0 0.5rem;
+  border-collapse: separate;
+  text-align: left;
+}
+
+.books-list th {
+  color: #969cb3;
+  font-weight: 400;
+  padding: 1rem 2rem;
+  line-height: 1.5rem;
+}
+
+.books-list th:last-child {
+  text-align: center;
+}
+
+.books-list td {
+  padding: 1rem 2rem;
+  border: 0;
+  background-color: #ffff;
+}
+
+.books-list td:first-child {
+  border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.books-list td:last-child {
+  border-radius: 0 0.25rem 0.25rem 0;
+  text-align: center;
+}
+
+.new-book-header {
+  margin: 0 auto;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem;
+}
+
+.btn-options-overwrite {
+  background-color: #ee3970;
+  border: #ee3970;
+}
+
+.btn-options-overwrite:hover {
+  background-color: #43c4b9;
+}
+
+.btn-insert-overwrite {
+  background-color: #43c4b9;
+  border: #43c4b9;
+}
+
+.btn-insert-overwrite:hover {
+  background-color: #3cb0a7;
+}
+/*# sourceMappingURL=style.css.map */

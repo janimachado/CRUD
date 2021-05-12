@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "title": "Livraos",
+      "author": "Stephany",
+      "price": "6.90",
+      "id": 2
+    },
+    {
+      "title": "Amanhecer",
+      "author": "Maurício de Souza",
+      "price": "4.50",
+      "id": 3
+    },
+    {
+      "title": "Lua Nova",
+      "author": "Stephany",
+      "price": "6.90",
+      "id": 4
+    },
+    {
+      "title": "Amanhecer",
+      "author": "Banana",
+      "price": "6.90",
+      "id": 5
+    }
+  ]
+}
